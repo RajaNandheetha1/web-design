@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plattr Labs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h2 class="logo">Plattr Labs</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <section class="header">
+        <div class="content">
+            <h1>GIVE YOUR BUSINESS THE BOOST IT NEEDS</h1>
+            <p>We are experts in that!</p>
+            <div>
+                <button type="button" class="find-out-more-button">Find Out More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="content">
+            <h2>Custom Websites And Apps To Power Your Business Growth!</h2>
+            <p>Partner with us to build top-notch websites and apps that showcase your brand and drive business growth, all while leveraging our expert tech team and cutting-edge Technologies!</p>
+            <div>
+                <button type="button" class="find-out-more-button">Find Out More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="content">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Website & App Development
+                    Crafting websites and apps, combining design and functionality to deliver seamless digital experiences!</li>
+                <li>Game Development
+                    We develop immersive games, and innovative design to deliver unforgettable gaming experiences!</li>
+                <li>Digital Marketing
+                    Driving business growth through strategic online marketing and engagement!</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <h2>Let's Get In Touch!</h2>
+            <p>Ready to start your next project with us? Send us a message and we will get back to you as soon as possible!</p>
+            <p>+91 97919 93397</p>
+            <p>+49 1769 77 37200</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <p>&copy; 2023 Plattr Labs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.querySelector(sectionId);
+            if (section) {
+                window.scrollTo({
+                    top: section.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        const findOutMoreButton = document.querySelector('.find-out-more-button');
+
+        if (findOutMoreButton) {
+            findOutMoreButton.addEventListener('click', function () {
+                scrollToSection('#contact');
+            });
+        }
+
+        const getStartedButton = document.querySelector('.get-started-button');
+
+        if (getStartedButton) {
+            getStartedButton.addEventListener('click', function () {
+                scrollToSection('#contact');
+            });
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+

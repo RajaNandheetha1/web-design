@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+}
+.navbar {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+.header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.about, .services, .contact {
+    background: #f9f9f9;
+}
+
+/* Styles for buttons */
+button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007f74;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+.services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.services ul li {
+    margin-bottom: 10px;
+}
+
+
